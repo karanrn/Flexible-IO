@@ -1,0 +1,15 @@
+[global]
+name=rand_RW
+filename=rand_RW
+rw=randrw
+rwmixread=70
+rwmixwrite=30
+direct=1
+numjobs=1
+time_based=1
+runtime=500
+
+[rand_RW]
+size=512M
+ioengine=sync
+iodepth=1

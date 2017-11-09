@@ -1,0 +1,13 @@
+[global]
+name=rand_read
+filename=rand_read
+rw=randread
+direct=1
+numjobs=1
+time_based=1
+runtime=500
+
+[rand_read]
+size=512M
+ioengine=sync
+iodepth=1
